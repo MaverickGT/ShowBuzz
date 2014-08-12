@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.showbuzz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.showbuzz.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.showbuzz.SplashScreen"
+            android:label="@string/title_activity_splash_screen" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.showbuzz.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.showbuzz.AccountActivity"
+            android:label="@string/title_activity_account" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.showbuzz.TrailerActivity"
+            android:label="@string/title_activity_trailer"
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name="com.example.showbuzz.MediaPlayer"
+            android:label="@string/title_media_player"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        
+    </application>
+
+</manifest>

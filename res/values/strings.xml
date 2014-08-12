@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Showbuzz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="link">www.something.com</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="image">Superman Logo</string>
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="checkBox">Remember Me</string>
+    <string name="loginButton">Login</string>
+    <string name="registerButton">Register</string>
+    <string name="trailers">Trailers</string>
+    <string name="account">Account</string>
+    <string name="logout">Log Out</string>
+    <string name="mainDescription">Star Trek Image</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="create">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="repeat_text">Please repeat your password</string>
+    <string name="success">You have registered successfully. You can now log in.</string>
+    <string name="incorrect">Your passwords do not match. Please try again.</string>
+    <string name="wrongUser">Wrong username or password. Please try again.</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="firstNameHint">First Name</string>
+    <string name="lastNameHint">Last Name</string>
+    <string name="emailHint">E-Mail</string>
+    <string name="resetPassText">Reset Password</string>
+    <string name="AccountImgDescription">X-Men First Class</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_done">Done</string>
+    <string name="vader_view_description">Darth Vader</string>
+    <string name="title_activity_trailer">TrailerActivity</string>
+    <string name="title_media_player">MediaPlayer</string>
+
+</resources>
